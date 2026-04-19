@@ -13,7 +13,6 @@ class_dict = {
 def index():
     if request.method == "POST":
         
-        # Obtain values from form
         val1 = float(request.form["val1"])
         val2 = float(request.form["val2"])
         val3 = float(request.form["val3"])
